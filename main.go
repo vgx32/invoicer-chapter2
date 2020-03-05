@@ -236,7 +236,7 @@ func getHeartbeat(w http.ResponseWriter, r *http.Request) {
 // handleVersion returns the current version of the API
 func getVersion(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte(fmt.Sprintf(`{
-"source": "https://github.com/Securing-DevOps/invoicer",
+"source": "https://github.com/vgx32/invoicer",
 "version": "%s",
 "commit": "%s",
 "build": "https://circleci.com/gh/Securing-DevOps/invoicer/"
